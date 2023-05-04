@@ -2,4 +2,4 @@
 
 _Here is SpiroFont Pattern Generator_ <br>
 
-<a href="Spirofont/SpiroFont.html">Entrance</a>
+<a href="SprioFont/SpiroFont.html">Entrance</a>
