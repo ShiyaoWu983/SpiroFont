@@ -1,0 +1,49 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .image-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container img:hover {
+    transform: scale(3);
+  }
+  
+
+  .bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top:80px;
+}
+
+.bottom-container button {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    border: solid 1.5px;
+    border-radius: 15px;
+    width: 173px;
+    height: 24px;
+}
+
+
+
+.bottom-container button:hover {
+    background-color: white;
+    color: black;
+}
